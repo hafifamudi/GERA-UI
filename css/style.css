@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    font-family: "Roboto";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin:0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+    position: relative;
+}
+
+a.link-sm{
+    color: grey;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button.btn-primary{
+    background-color: rgb(230, 46, 77);
+    border: none;
+    padding: 16px 40px;
+    border-radius: 300px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+.img-login {
+    width: 20px;
+    height: 15px;
+}
+
+.nav-brand {
+    position: absolute;
+    transform: translateX(-50%);
+    display: flex ;
+    align-items: center t;
+    left: 50%;
+}
+
+.nav-links{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+.hero-column img{
+    position: absolute;
+    width: 30%;
+    right: 0;
+    top: 0;
+    padding: 20px;
+    margin-top: 90px;
+    margin-right: 50px;
+}
+
+.column-text-heading {
+    width: 50%;
+}
+
+h1.hero-heading{
+    font-size: 64px;
+    color: rgb(53, 51, 51);
+}
+
+p.text-p {
+    margin-top: 28px 0;
+    font-size: 18px;
+    color: rgb(168, 168, 168);
+    line-height: 28px;
+}
+
+.btn-secondary{
+    background-color:transparent;
+    border: 2px solid rgb(80, 79, 79);
+    padding: 16px 40px;
+    border-radius: 300px;
+    color: rgb(80, 79, 79);
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+.title-heading{
+    width: 100%;
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-heading h1 {
+    font-size: 56px;
+    text-transform: capitalize;
+    color: rgb(41, 39, 39);
+}
+
+.title-heading p {
+    font-size: 18px;
+    color: rgb(156, 152, 152);
+    margin-top: 20px;
+}
+
+.img-row{
+    width: 10%;
+}
+
+.row-3-col {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 122px 0;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col h4 {
+    color: rgb(53, 51, 51);
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+.card-product {
+    display: flex;
+    align-items: center;
+    height: 92vh;
+}
+
+.text-card h1 {
+    font-size: 56px;
+    text-transform: capitalize;
+    color: rgb(53, 51, 51);
+}
+
+.text-card{
+    padding-left: 28px;
+}
+
+.text-card p {
+    font-size: 18px;
+    margin: 20px 0;
+    width: 80%;
+    line-height: 32px;
+    color: rgb(156, 152, 152);
+}
+
+.img-card{
+    width: 100%;
+}
+
+section.pricing {
+    padding: 64px;
+    margin: 144px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-light-pink {
+    background-color: rgb(240, 214, 218);
+    border-radius: 40px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 56px;
+    color: rgb(53, 51, 51);
+}
+
+.heading p {
+    font-size: 18px;
+    color: rgb(156, 152, 152);
+}
+
+.swithcer {
+    background-color: rgb(247, 178, 190);
+    padding: 8px;
+    border-radius: 100px;
+    margin: 42px 0;
+}
+
+button.btn-on-tab{
+    background-color: rgb(230, 46, 77);
+    color:white;
+    padding: 16px 28px;
+    font-size: 18px;
+    border: none;
+    border-radius: 100px;
+}
+
+button.btn-off-tab{
+    background-color: transparent;
+    color: rgb(156, 152, 152);
+    padding: 16px 28px;
+    font-size: 18px;
+    border: none;
+}
+
+.row-card-pricing {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 24px;
+}
+
+.card-pricing {
+    border: 3px solid rgb(53, 51, 51);
+    border-radius: 30px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.description-pricing {
+    height: 34vh;
+}
+
+.description-pricing h3 {
+    font-size: 24px;
+    color: rgb(53, 51, 51) ;
+}
+
+.description-pricing h1 {
+    font-size: 48px;
+    color: rgb(53, 51, 51) ;
+}
+
+
+.description-pricing h1 span {
+    font-size: 24px;
+}
+
+.feature-list{
+    margin-top: 28px;
+}
+
+.feature-list p {
+    color: rgb(156, 152, 152);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.feature-list p img{
+    margin-right: 8px;
+}
+
+.bg-dark {
+    background-color: rgb(53, 51, 51) !important;
+}
+
+.card-primary h3, .card-primary h1,.card-primary {
+    color: rgb(230, 46, 77) !important ;
+    border-color:  rgb(230, 46, 77);
+}
+
+section.testimonial{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    margin: 144px 0;
+}
+
+.review {
+    display: flex;
+}
+
+.description-test {
+    margin-top: 30px;
+    padding-left: 15px;
+}
+
+.description-test {
+    font-size: 24px;
+    color:  c;
+}
+
+
+.description-test p{
+    color:rgb(156, 152, 152);
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+p.label-user {
+    color: rgb(230, 46, 77) ;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+.tab {
+    display: flex;
+    width: 10vh;
+    justify-content: space-between;
+    margin: 44px 0;
+}
+
+.tab span{
+    background-color: transparent;
+    border: 1px solid rgb(53, 51, 51);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.tab span.active {
+    background-color: rgb(53, 51, 51);
+}
+
+section.jumbotron{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    margin: 144px 0;
+    padding: 64px;
+}
+
+.single-centered-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo p{
+    margin-right: 10px;
+}
+
+.social-media img {
+    height: 24px;
+    margin-left: 18px;
+}
